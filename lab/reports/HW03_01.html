@@ -4,16 +4,20 @@
     <meta charset="UTF-8">
     <title>과제 3 - 자바스크립트 프로그래밍</title>
     <SCRIPT>
-        function number(n){
+        function number(n) {
+            var m = parseInt(n);
+            var S = parseInt(m, 2);
+            var H = parseInt(S, 16);
 
-
+            document.write(H);
         }
+
     </SCRIPT>
 </head>
 <body>
 <h3> 과제 3- 자바스크립트 프로그래밍</h3>
 <script>
-    let n = prompt();
+    let n = prompt("2진수를 16진수로 변환", "");
     number(n);
 </script>
 </body>
