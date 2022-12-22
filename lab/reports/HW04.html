@@ -15,7 +15,24 @@
             document.getElementById('hexanum').value = H;
         }
 
-        
+  function pascal() {
+            var pascal = parseInt(document.getElementById("size").value)
+
+            var getrow = fouction(size){
+                var row = [];
+
+                row.push(1);
+
+                for (let i = 1; i <= size; i++) {
+
+                    for (var j = row.length - 1; j > 0; j--) {
+                        row[j] = row[j - 1] + row[j];
+                    }
+                    row.push(1);
+                }
+                return row;
+            }
+        }
 
 
 
