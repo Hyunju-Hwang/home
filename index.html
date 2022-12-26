@@ -50,30 +50,10 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="#hero">Home</a></li>
-          <li><a href="#menu">맛집</a></li>
+          <li><a href="#events">맛집</a></li>
           <li><a href="#events">카페</a></li>
           <li><a href="#chefs">디저트</a></li>
-          <li><a href="#gallery">Gallery</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+          <li><a href="#gallery">추천</a></li>
       </nav><!-- .navbar -->
 
       <a class="btn-book-a-table" href="#book-a-table">Book a Table</a>
@@ -114,26 +94,26 @@
 
         <ul class="nav nav-tabs d-flex justify-content-center" data-aos="fade-up" data-aos-delay="200">
 
-          <li class="nav-item">
+          <li id="asian" class="nav-item">
             <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#menu-starters">
               <h4>아시안</h4>
             </a>
           </li><!-- End tab nav item -->
 
-          <li class="nav-item">
+          <li id="japanese" class="nav-item">
             <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-breakfast">
               <h4>일식</h4>
             </a><!-- End tab nav item -->
 
-          <li class="nav-item">
+          <li id="western" class="nav-item">
             <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-lunch">
               <h4>양식</h4>
             </a>
           </li><!-- End tab nav item -->
 
-          <li class="nav-item">
+          <li id="bbq" class="nav-item">
             <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-dinner">
-              <h4>분식</h4>
+              <h4>돼지고기구이</h4>
             </a>
           </li><!-- End tab nav item -->
 
@@ -179,246 +159,338 @@
               </div>
 
             </div>
-          </div><!-- End Starter Menu Content -->
+          </div><!-- End first restaurant Content -->
 
           <div class="tab-pane fade" id="menu-breakfast">
 
             <div class="tab-header text-center">
-              <p>Menu</p>
-              <h3>Breakfast</h3>
+              <p>일식</p>
+              <h3>백소정</h3>
             </div>
 
-            <div class="row gy-5">
+            <div class="row gy-4">
+              <div class="col-lg-5 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300">
+                  <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3160.9709893792487!2d127.03908011531263!3d37.602841779791156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cbb61c0d42e13%3A0x336350c6d54f950c!2z67Cx7IaM7KCVIO2VmOyblOqzoeygkA!5e0!3m2!1sko!2skr!4v1671980597869!5m2!1sko!2skr" frameborder="0" allowfullscreen></iframe>
+              </div>
 
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img src="assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Magnam Tiste</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $5.95
-                </p>
-              </div><!-- Menu Item -->
+              <div class="col-lg-5 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300">
+                <div class="content ps-0 ps-lg-5">
+                  <p class="fst-italic">
+                    <i class="bi bi-caret-right-fill"></i>
+                     추천메뉴: 치즈돈까스, 마제소바 에비텐 세트
+                  </p>
+                  <p class="fst-italic">
+                     매장이 넓고 깔끔해서 친구들이랑 가기 좋아요. <br>
+                     티오더 결제 시스템이 있어 식탁에서 편하게 주문할 수 있어요.<br>
+                     마제소바 먹고 밥 달라고 부탁드려서 남은 소스에 밥 비벼먹으면 정말 맛있습니다.
+                     새우튀김도 정말 맛있어요. <br>
+                     리뷰쓰면 음료수를 주는 이벤트를 하고 있어요!
 
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img src="assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Aut Luia</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $14.95
-                </p>
-              </div><!-- Menu Item -->
+                  </p>
+                  <p>
+                    <i class="bi bi-check2-all text-danger"></i> 휴무일: 매주 월요일 <br>
+                    <i class="bi bi-check2-all text-danger"></i> 운영시간: 화-일 11:00-21:00<br>
+                    <i class="bi bi-check2-all text-danger"></i> 브레이크타임: 15:00-17:00<br>
+                    <i class="bi bi-check2-all text-danger"></i> 라스트오더: 20:00<br>
+                    <i class="bi bi-check2-all text-danger"></i> 전화번호: 0507-1365-3437
+                  </p>
+                  <p>
+                   주소: 서울특별시 성북구 화랑로11길 11-3
+                  </p>
+                </div>
 
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img src="assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Est Eligendi</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $8.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-4.png" class="glightbox"><img src="assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Eos Luibusdam</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $12.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-5.png" class="glightbox"><img src="assets/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Eos Luibusdam</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $12.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-6.png" class="glightbox"><img src="assets/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Laboriosam Direva</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $9.95
-                </p>
-              </div><!-- Menu Item -->
+              </div>
 
             </div>
-          </div><!-- End Breakfast Menu Content -->
+          </div><!-- End second restaurant Content -->
 
           <div class="tab-pane fade" id="menu-lunch">
 
             <div class="tab-header text-center">
-              <p>Menu</p>
-              <h3>Lunch</h3>
+              <p>양식</p>
+              <h3>스페셜리</h3>
             </div>
 
-            <div class="row gy-5">
+            <div class="row gy-4">
+              <div class="col-lg-5 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300">
+                  <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3160.8130413666454!2d127.042717415142!3d37.60655887979046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cbb24acd12c53%3A0x5eb46500cfac589e!2z7Iqk7Y6Y7IWc66asIHNwZWNpYWwgbGVl!5e0!3m2!1sko!2skr!4v1671983506334!5m2!1sko!2skr" frameborder="0" allowfullscreen></iframe>
+              </div>
 
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img src="assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Magnam Tiste</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $5.95
-                </p>
-              </div><!-- Menu Item -->
+              <div class="col-lg-5 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300">
+                <div class="content ps-0 ps-lg-5">
+                  <p class="fst-italic">
+                    <i class="bi bi-caret-right-fill"></i>
+                     추천메뉴: 모짜렐라 바질 토마토 파스타, 게살 새우살 로제 리조또, 콤비네이션 피자
+                  </p>
+                  <p class="fst-italic">
+                     매장은 작지만 깔끔하고 분위기도 좋아요. <br>
+                     오픈형 주방이라 사장님이 요리하시는 모습을 볼 수 있어요. <br>
+                     사장님이 친절하시고 신선한 재료 사용하시는 것 같아요. <br>
+                     스파게티, 리조또 맛있고 여러명이서 가면 피자 시켜 드세요!<br>
+                     상월곡 역쪽에서 친구를 만난다면 꼭 가보세요~ <br>
 
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img src="assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Aut Luia</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $14.95
-                </p>
-              </div><!-- Menu Item -->
+                  </p>
+                  <p>
+                    <i class="bi bi-check2-all text-danger"></i> 휴무일: 매주 일요일 <br>
+                    <i class="bi bi-check2-all text-danger"></i> 운영시간: 월-토 11:00-21:30<br>
+                    <i class="bi bi-check2-all text-danger"></i> 브레이크타임: 15:00-17:00<br>
+                    <i class="bi bi-check2-all text-danger"></i> 전화번호: 070-7576-1079
+                  </p>
+                  <p>
+                   주소: 서울 성북구 장월로1길 28 동아에코빌아파트 상가동 2층
+                  </p>
+                </div>
 
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img src="assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Est Eligendi</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $8.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-4.png" class="glightbox"><img src="assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Eos Luibusdam</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $12.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-5.png" class="glightbox"><img src="assets/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Eos Luibusdam</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $12.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-6.png" class="glightbox"><img src="assets/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Laboriosam Direva</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $9.95
-                </p>
-              </div><!-- Menu Item -->
+              </div>
 
             </div>
-          </div><!-- End Lunch Menu Content -->
+          </div><!-- End third restaurant Content -->
 
           <div class="tab-pane fade" id="menu-dinner">
 
             <div class="tab-header text-center">
-              <p>Menu</p>
-              <h3>Dinner</h3>
+              <p>돼지고기구이</p>
+              <h3>공복</h3>
             </div>
 
-            <div class="row gy-5">
+            <div class="row gy-4">
+              <div class="col-lg-5 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300">
+                  <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3160.8408917657116!2d127.04257051514205!3d37.60590347979065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cbb821a40a717%3A0x5c1c68611f56b48d!2z6rO167O1!5e0!3m2!1sko!2skr!4v1671985900938!5m2!1sko!2skr"  frameborder="0" allowfullscreen></iframe>
+              </div>
 
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img src="assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Magnam Tiste</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $5.95
-                </p>
-              </div><!-- Menu Item -->
+              <div class="col-lg-5 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300">
+                <div class="content ps-0 ps-lg-5">
+                  <p class="fst-italic">
+                    <i class="bi bi-caret-right-fill"></i>
+                     추천메뉴: 생갈비, 목살, 토장찌개
+                  </p>
+                  <p class="fst-italic">
+                     사장님과 알바생들이 직접 고기를 구워주고 잘라주십니다. <br>
+                     사장님 친절하시고 고기가 냄새 안나고 정말 맛있어요 <br>
+                     밑반찬들도 다 맛있는데 갓김치가 정말 맛있어요. <br>
+                     단호박과 꽈리고추도 구워주시는데 구운 꽈리고추랑 고기랑 정말 잘 어울립니다!  <br>
+                     고기 먹다가 느끼해지면 중간중간 토장찌개로 기름을 싹 내려주면 돼요. <br>
 
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img src="assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Aut Luia</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $14.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img src="assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Est Eligendi</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $8.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-4.png" class="glightbox"><img src="assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Eos Luibusdam</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $12.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-5.png" class="glightbox"><img src="assets/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Eos Luibusdam</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $12.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-6.png" class="glightbox"><img src="assets/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Laboriosam Direva</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $9.95
-                </p>
-              </div><!-- Menu Item -->
-
+                  </p>
+                  <p>
+                    <i class="bi bi-check2-all text-danger"></i> 휴무일: 매주 일요일 <br>
+                    <i class="bi bi-check2-all text-danger"></i> 운영시간: 월-토 17:00-22:30<br>
+                    <i class="bi bi-check2-all text-danger"></i> 라스트오더: 21:30 <br>
+                    <i class="bi bi-check2-all text-danger"></i> 전화번호: 02-914-6692
+                  </p>
+                  <p>
+                   주소: 서울 성북구 장월로1길 60 1층
+                  </p>
+                </div>
+              </div>
             </div>
-          </div><!-- End Dinner Menu Content -->
+          </div><!-- End fourth restaurant Content -->
+        </div>
+      </div>
+    </section>
+
+     <section id="cafe" class="cafe">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+             <p> <span>cafe</span> recommend</p>
 
         </div>
 
+        <ul class="nav nav-tabs d-flex justify-content-center" data-aos="fade-up" data-aos-delay="200">
+
+          <li id="cafe1" class="nav-item">
+            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#cafe-manolin">
+              <h4>마놀린</h4>
+            </a>
+          </li><!-- End tab nav item -->
+
+          <li id="cafe2" class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#cafe-chico">
+              <h4>치코커피</h4>
+            </a><!-- End tab nav item -->
+
+          <li id="cafe3" class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#cafe-deview">
+              <h4>드뷰</h4>
+            </a>
+          </li><!-- End tab nav item -->
+
+          <li id="cafe4" class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#cafe-mrbean">
+              <h4>미스터빈커피</h4>
+            </a>
+          </li><!-- End tab nav item -->
+
+        </ul>
+
+        <div class="tab-content" data-aos="fade-up" data-aos-delay="300">
+
+          <div class="tab-pane fade active show" id="cafe-manolin">
+
+            <div class="tab-header text-center">
+              <h3>마놀린</h3>
+            </div>
+
+            <div class="row gy-4">
+              <div class="col-lg-5 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300">
+                  <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12643.521756491115!2d127.0419413!3d37.6049728!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4a6627dbd0f39ce5!2z7Lm07Y6YIOuniOuGgOumsA!5e0!3m2!1sko!2skr!4v1672064639897!5m2!1sko!2skr" frameborder="0" allowfullscreen></iframe>
+              </div>
+
+              <div class="col-lg-5 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300">
+                <div class="content ps-0 ps-lg-5">
+                  <p class="fst-italic">
+                    <i class="bi bi-caret-right-fill"></i>
+                     추천메뉴: 소고기쌀국수, 매운 소고기쌀국수, 새우볶음밥, 텃만꿍
+                  </p>
+                  <p class="fst-italic">
+                     사장님표 커피가 정말 맛있다고 합니다. <br>
+                     저는 커피를 못 마셔서 카페인이 안 들어간 음료를 주로 마시는데, <br>
+                     아이스티가 정말 맛있습니다! <br>
+                     립톤이나 네스티 
+                  </p>
+                  <p>
+                    <i class="bi bi-check2-all text-danger"></i> 휴무일: 없음 <br>
+                    <i class="bi bi-check2-all text-danger"></i> 운영시간: 월-목 8:30-21:00, 금 9:00-18:30 토,일 9:00-18:30<br>
+                    <i class="bi bi-check2-all text-danger"></i> 전화번호: 02-919-7904
+                  </p>
+                  <p>
+                   주소: 서울 성북구 화랑로13길 38
+                  </p>
+                </div>
+
+              </div>
+
+            </div>
+          </div><!-- End first restaurant Content -->
+
+          <div class="tab-pane fade" id="menu-breakfast">
+
+            <div class="tab-header text-center">
+              <p>일식</p>
+              <h3>백소정</h3>
+            </div>
+
+            <div class="row gy-4">
+              <div class="col-lg-5 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300">
+                  <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3160.9709893792487!2d127.03908011531263!3d37.602841779791156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cbb61c0d42e13%3A0x336350c6d54f950c!2z67Cx7IaM7KCVIO2VmOyblOqzoeygkA!5e0!3m2!1sko!2skr!4v1671980597869!5m2!1sko!2skr" frameborder="0" allowfullscreen></iframe>
+              </div>
+
+              <div class="col-lg-5 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300">
+                <div class="content ps-0 ps-lg-5">
+                  <p class="fst-italic">
+                    <i class="bi bi-caret-right-fill"></i>
+                     추천메뉴: 치즈돈까스, 마제소바 에비텐 세트
+                  </p>
+                  <p class="fst-italic">
+                     매장이 넓고 깔끔해서 친구들이랑 가기 좋아요. <br>
+                     티오더 결제 시스템이 있어 식탁에서 편하게 주문할 수 있어요.<br>
+                     마제소바 먹고 밥 달라고 부탁드려서 남은 소스에 밥 비벼먹으면 정말 맛있습니다.
+                     새우튀김도 정말 맛있어요. <br>
+                     리뷰쓰면 음료수를 주는 이벤트를 하고 있어요!
+
+                  </p>
+                  <p>
+                    <i class="bi bi-check2-all text-danger"></i> 휴무일: 매주 월요일 <br>
+                    <i class="bi bi-check2-all text-danger"></i> 운영시간: 화-일 11:00-21:00<br>
+                    <i class="bi bi-check2-all text-danger"></i> 브레이크타임: 15:00-17:00<br>
+                    <i class="bi bi-check2-all text-danger"></i> 라스트오더: 20:00<br>
+                    <i class="bi bi-check2-all text-danger"></i> 전화번호: 0507-1365-3437
+                  </p>
+                  <p>
+                   주소: 서울특별시 성북구 화랑로11길 11-3
+                  </p>
+                </div>
+
+              </div>
+
+            </div>
+          </div><!-- End second restaurant Content -->
+
+          <div class="tab-pane fade" id="menu-lunch">
+
+            <div class="tab-header text-center">
+              <p>양식</p>
+              <h3>스페셜리</h3>
+            </div>
+
+            <div class="row gy-4">
+              <div class="col-lg-5 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300">
+                  <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3160.8130413666454!2d127.042717415142!3d37.60655887979046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cbb24acd12c53%3A0x5eb46500cfac589e!2z7Iqk7Y6Y7IWc66asIHNwZWNpYWwgbGVl!5e0!3m2!1sko!2skr!4v1671983506334!5m2!1sko!2skr" frameborder="0" allowfullscreen></iframe>
+              </div>
+
+              <div class="col-lg-5 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300">
+                <div class="content ps-0 ps-lg-5">
+                  <p class="fst-italic">
+                    <i class="bi bi-caret-right-fill"></i>
+                     추천메뉴: 모짜렐라 바질 토마토 파스타, 게살 새우살 로제 리조또, 콤비네이션 피자
+                  </p>
+                  <p class="fst-italic">
+                     매장은 작지만 깔끔하고 분위기도 좋아요. <br>
+                     오픈형 주방이라 사장님이 요리하시는 모습을 볼 수 있어요. <br>
+                     사장님이 친절하시고 신선한 재료 사용하시는 것 같아요. <br>
+                     스파게티, 리조또 맛있고 여러명이서 가면 피자 시켜 드세요!<br>
+                     상월곡 역쪽에서 친구를 만난다면 꼭 가보세요~ <br>
+
+                  </p>
+                  <p>
+                    <i class="bi bi-check2-all text-danger"></i> 휴무일: 매주 일요일 <br>
+                    <i class="bi bi-check2-all text-danger"></i> 운영시간: 월-토 11:00-21:30<br>
+                    <i class="bi bi-check2-all text-danger"></i> 브레이크타임: 15:00-17:00<br>
+                    <i class="bi bi-check2-all text-danger"></i> 전화번호: 070-7576-1079
+                  </p>
+                  <p>
+                   주소: 서울 성북구 장월로1길 28 동아에코빌아파트 상가동 2층
+                  </p>
+                </div>
+
+              </div>
+
+            </div>
+          </div><!-- End third restaurant Content -->
+
+          <div class="tab-pane fade" id="menu-dinner">
+
+            <div class="tab-header text-center">
+              <p>돼지고기구이</p>
+              <h3>공복</h3>
+            </div>
+
+            <div class="row gy-4">
+              <div class="col-lg-5 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300">
+                  <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3160.8408917657116!2d127.04257051514205!3d37.60590347979065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cbb821a40a717%3A0x5c1c68611f56b48d!2z6rO167O1!5e0!3m2!1sko!2skr!4v1671985900938!5m2!1sko!2skr"  frameborder="0" allowfullscreen></iframe>
+              </div>
+
+              <div class="col-lg-5 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300">
+                <div class="content ps-0 ps-lg-5">
+                  <p class="fst-italic">
+                    <i class="bi bi-caret-right-fill"></i>
+                     추천메뉴: 생갈비, 목살, 토장찌개
+                  </p>
+                  <p class="fst-italic">
+                     사장님과 알바생들이 직접 고기를 구워주고 잘라주십니다. <br>
+                     사장님 친절하시고 고기가 냄새 안나고 정말 맛있어요 <br>
+                     밑반찬들도 다 맛있는데 갓김치가 정말 맛있어요. <br>
+                     단호박과 꽈리고추도 구워주시는데 구운 꽈리고추랑 고기랑 정말 잘 어울립니다!  <br>
+                     고기 먹다가 느끼해지면 중간중간 토장찌개로 기름을 싹 내려주면 돼요. <br>
+
+                  </p>
+                  <p>
+                    <i class="bi bi-check2-all text-danger"></i> 휴무일: 매주 일요일 <br>
+                    <i class="bi bi-check2-all text-danger"></i> 운영시간: 월-토 17:00-22:30<br>
+                    <i class="bi bi-check2-all text-danger"></i> 라스트오더: 21:30 <br>
+                    <i class="bi bi-check2-all text-danger"></i> 전화번호: 02-914-6692
+                  </p>
+                  <p>
+                   주소: 서울 성북구 장월로1길 60 1층
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div><!-- End fourth restaurant Content -->
+        </div>
       </div>
-    </section><!-- End Menu Section -->
+    </section>
 
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials section-bg">
@@ -431,31 +503,6 @@
 
         <div class="slides-1 swiper" data-aos="fade-up" data-aos-delay="100">
           <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <div class="row gy-4 justify-content-center">
-                  <div class="col-lg-6">
-                    <div class="testimonial-content">
-                      <p>
-                        <i class="bi bi-quote quote-icon-left"></i>
-                        Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                        <i class="bi bi-quote quote-icon-right"></i>
-                      </p>
-                      <h3>Saul Goodman</h3>
-                      <h4>Ceo &amp; Founder</h4>
-                      <div class="stars">
-                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-2 text-center">
-                    <img src="assets/img/testimonials/testimonials-1.jpg" class="img-fluid testimonial-img" alt="">
-                  </div>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <div class="row gy-4 justify-content-center">
@@ -479,6 +526,7 @@
                 </div>
               </div>
             </div><!-- End testimonial item -->
+
 
             <div class="swiper-slide">
               <div class="testimonial-item">
